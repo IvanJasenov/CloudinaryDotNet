@@ -148,7 +148,7 @@
         /// Will they be able to differentiate between different elements in the image.
         /// </summary>
         [DataMember(Name = "accessibility_analysis")]
-        public AccessibilityAnalysis AccessibilityAnalysis { get; protected set; }
+        public AccessibilityAnalysis AccessibilityAnalysis { get; set; }
 
         /// <summary>
         /// Overrides corresponding method of <see cref="BaseResult"/> class.
